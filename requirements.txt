@@ -1,0 +1,15 @@
+gymnasium>=0.28.1   # For environments
+torch>=2.0.0        # For PyTorch
+numpy>=1.24.0       # Numerical computations
+matplotlib>=3.7.0   # Visualization
+pandas>=2.0.0       # Data analysis (e.g., logging rewards, hyperparameters)
+scipy>=1.11.0       # For advanced math functions
+pyyaml>=6.0         # For configuration file parsing
+tqdm>=4.64.0        # For progress bars during training
+gymnasium[box2d]>=0.28.1  # For environments like BipedalWalker
+gymnasium[atari]>=0.28.1  # For Atari environments (if needed)
+gymnasium[mujoco]>=0.28.1 # For MuJoCo physics-based environments.
+tensorboard>=2.13.0 # Optional: For advanced visualization of training metrics
+opencv-python       # for image processing
+wandb               # For experimenting tracking with Weights and Bases
+

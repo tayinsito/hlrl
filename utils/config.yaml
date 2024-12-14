@@ -1,0 +1,15 @@
+# Store environment configurations
+
+CartPole-v1:
+  gamma: 0.99
+  hidden_size: 128
+  lr: 1e-3
+  max_episodes: 1000
+  reward_threshold: 475
+
+BipedalWalker-v3:
+  gamma: 0.99
+  hidden_size: 256
+  lr: 3e-4
+  max_episodes: 2000
+  reward_threshold: 300
